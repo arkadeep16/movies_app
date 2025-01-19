@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from "react";
-export const ApiUrl = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_MOVIES_APP}`;
+export const ApiUrl = `http://www.omdbapi.com/?apikey=67f516ac`;
 const appContext = createContext();
 
 const AppProvider = ({ children }) => {

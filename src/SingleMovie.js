@@ -10,7 +10,7 @@ const SingleMovie = () => {
   const [movies, setMovies] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [showError, setShowError] = useState({ show: "false", msg:"" });
-    const [searchQuery, setSearchQuery] = useState("");
+    
   
     
     const getMovies = async (ApiUrl) => {
